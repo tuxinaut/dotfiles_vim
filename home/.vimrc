@@ -11,6 +11,10 @@ Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
 Bundle 'ervandew/supertab'
 
+" Color schemes
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'tomasr/molokai'
+
 " Turn on filetype plugin and indent loading so that loading the
 " vim-misc stuff below loads the proper files.
 filetype plugin indent on
@@ -36,6 +40,7 @@ set hlsearch " Highlight results
 set incsearch " Start showing results as you type
 
 hi CursorLine ctermbg=Blue ctermfg=White
+colorscheme molokai
 
 augroup vimrc
 augroup END
