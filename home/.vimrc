@@ -39,7 +39,6 @@ syntax on " Enable filetype detection by syntax
 set hlsearch " Highlight results
 set incsearch " Start showing results as you type
 
-hi CursorLine ctermbg=Blue ctermfg=White
 colorscheme molokai
 
 augroup vimrc
