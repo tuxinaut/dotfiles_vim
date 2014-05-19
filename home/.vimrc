@@ -6,6 +6,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+" Bundle "elzr/vim-json"
+
 " Other plugins
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
