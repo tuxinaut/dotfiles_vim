@@ -52,8 +52,10 @@ if has("autocmd")
 	filetype on
 	autocmd BufNewFile,BufRead *.ts set filetype=typoscript
 	autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
+	autocmd BufNewFile,BufRead *.erb set filetype=ruby
 
 	autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType typoscript setlocal ts=2 sts=2 sw=2 expandtab
 endif
 
