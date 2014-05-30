@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
 Bundle 'ervandew/supertab'
+Bundle 'majutsushi/tagbar'
 
 " Color schemes
 Bundle 'nanotech/jellybeans.vim'
@@ -66,6 +67,10 @@ endif
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "wombat"
 let g:airline#extensions#tabline#enabled = 1
+
+nmap <F8> :TagbarOpenAutoClose<CR>
+let g:tagbar_autopreview = 1
+let g:tagbar_show_linenumbers = 1
 
 "----------------------------------------------------------------------
 " Autocommands
