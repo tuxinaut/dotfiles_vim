@@ -8,15 +8,26 @@ Bundle 'gmarik/vundle'
 
 " Bundle "elzr/vim-json"
 
+" PHP
+"after install vimproc run make in ~/.vim/bundle/vimproc.vim directory
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/unite.vim'
+Bundle 'm2mdas/phpcomplete-extended'
+
 " Other plugins
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
 Bundle 'ervandew/supertab'
 Bundle 'majutsushi/tagbar'
 
+
 " Color schemes
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'tomasr/molokai'
+
+autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+set completeopt-=preview
 
 " Turn on filetype plugin and indent loading so that loading the
 " vim-misc stuff below loads the proper files.
