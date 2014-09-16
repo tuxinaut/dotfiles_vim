@@ -52,6 +52,7 @@ syntax on " Enable filetype detection by syntax
 " Search settings
 set hlsearch " Highlight results
 set incsearch " Start showing results as you type
+set ignorecase " Case insensitiv search
 
 colorscheme molokai
 
