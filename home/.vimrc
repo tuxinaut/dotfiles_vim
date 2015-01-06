@@ -8,6 +8,8 @@ Bundle 'gmarik/vundle'
 
 " Bundle "elzr/vim-json"
 
+Bundle 'rodjek/vim-puppet'
+
 " Other plugins
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
