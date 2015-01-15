@@ -64,6 +64,18 @@ if has("autocmd")
 endif
 
 "----------------------------------------------------------------------
+" Spell checking
+"----------------------------------------------------------------------
+" See: http://vimcasts.org/episodes/spell-checking/
+
+" Toggle spell checking on and off with `,s`
+let mapleader = ","
+nmap <silent> <leader>s :set spell!<CR>
+
+" Set region to British English
+set spelllang=en_us
+
+"----------------------------------------------------------------------
 " Plugin settings
 "----------------------------------------------------------------------
 " Airline
