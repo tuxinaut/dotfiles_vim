@@ -17,6 +17,7 @@ Bundle 'vim-scripts/SudoEdit.vim'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/nerdtree'
 
+" Install ctags
 Bundle 'majutsushi/tagbar'
 
 " Color schemes
