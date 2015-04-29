@@ -15,6 +15,8 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/SudoEdit.vim'
 Bundle 'ervandew/supertab'
+Bundle 'scrooloose/nerdtree'
+
 Bundle 'majutsushi/tagbar'
 
 " Color schemes
