@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 " Bundle "elzr/vim-json"
 
+Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
 
 " Other plugins
