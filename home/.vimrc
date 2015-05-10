@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
+Bundle 'scrooloose/syntastic'
 
 " Other plugins
 Bundle 'bling/vim-airline'
