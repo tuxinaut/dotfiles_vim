@@ -32,6 +32,14 @@ filetype plugin indent on
 scriptencoding utf-8
 set encoding=utf-8
 
+" gvim
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+  endif
+endif
+
 "----------------------------------------------------------------------
 "" Basic Options
 "----------------------------------------------------------------------
