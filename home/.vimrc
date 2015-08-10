@@ -14,7 +14,7 @@ Bundle 'scrooloose/syntastic'
 
 " Other plugins
 Bundle 'bling/vim-airline'
-Bundle 'vim-scripts/SudoEdit.vim'
+Bundle 'chrisbra/SudoEdit.vim'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/nerdtree'
 
@@ -107,6 +107,9 @@ let g:airline#extensions#tabline#enabled = 1
 nmap <F8> :TagbarOpenAutoClose<CR>
 let g:tagbar_autopreview = 1
 let g:tagbar_show_linenumbers = 1
+
+" SudoEdit
+let g:sudo_no_gui=1
 
 "----------------------------------------------------------------------
 " Autocommands
