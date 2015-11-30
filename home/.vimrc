@@ -64,17 +64,20 @@ augroup vimrc
 augroup END
 
 if has("autocmd")
-	autocmd bufwritepost .vimrc source $MYVIMRC
+  autocmd bufwritepost .vimrc source $MYVIMRC
 
-	filetype on
-	autocmd BufNewFile,BufRead *.ts set filetype=typoscript
-	autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
-	autocmd BufNewFile,BufRead *.erb set filetype=ruby
+  filetype on
+  autocmd BufNewFile,BufRead *.ts set filetype=typoscript
+  autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
+  autocmd BufNewFile,BufRead *.erb set filetype=ruby
+  autocmd! BufNewFile,BufRead *.pde setlocal ft=arduino
+  autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
 
-	autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType sh   setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType ino  setlocal ts=2 sts=2 sw=2 expandtab
 endif
-
 
 "----------------------------------------------------------------------
 " Split navigation
