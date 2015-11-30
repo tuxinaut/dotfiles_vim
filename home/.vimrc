@@ -67,7 +67,6 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 
   filetype on
-  autocmd BufNewFile,BufRead *.ts set filetype=typoscript
   autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
   autocmd BufNewFile,BufRead *.erb set filetype=ruby
   autocmd! BufNewFile,BufRead *.pde setlocal ft=arduino
