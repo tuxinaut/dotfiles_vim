@@ -72,6 +72,9 @@ set hlsearch " Highlight results
 set incsearch " Start showing results as you type
 set ignorecase " Case insensitiv search
 
+" history
+set history=1000
+
 "----------------------------------------------------------------------
 " colorschemes
 "----------------------------------------------------------------------
