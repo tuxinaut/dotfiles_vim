@@ -4,26 +4,29 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+"""""""""""
+" Plugins "
+"""""""""""
+Plugin 'gmarik/vundle'
 
 " Bundle "elzr/vim-json"
 
-Bundle 'godlygeek/tabular'
-Bundle 'rodjek/vim-puppet'
-Bundle 'scrooloose/syntastic'
+Plugin 'godlygeek/tabular'
+Plugin 'rodjek/vim-puppet'
+Plugin 'scrooloose/syntastic'
 
 " Other plugins
-Bundle 'bling/vim-airline'
-Bundle 'chrisbra/SudoEdit.vim'
-Bundle 'ervandew/supertab'
-Bundle 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+Plugin 'chrisbra/SudoEdit.vim'
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/nerdtree'
 
 " Install ctags
-Bundle 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 
 " Color schemes
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'tomasr/molokai'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'tomasr/molokai'
 
 " Turn on filetype plugin and indent loading so that loading the
 " vim-misc stuff below loads the proper files.
