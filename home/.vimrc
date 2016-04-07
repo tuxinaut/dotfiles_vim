@@ -16,7 +16,6 @@ Plugin 'scrooloose/syntastic'
 " Other plugins
 Plugin 'bling/vim-airline'
 Plugin 'chrisbra/SudoEdit.vim'
-" Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
@@ -38,7 +37,6 @@ Plugin 'majutsushi/tagbar'
 
 " Color schemes
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'nanotech/jellybeans.vim'
 Plugin 'tomasr/molokai'
 
 " Automatically detect file types.
