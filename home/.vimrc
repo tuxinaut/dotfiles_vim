@@ -76,6 +76,16 @@ set ignorecase " Case insensitiv search
 set history=1000
 
 "----------------------------------------------------------------------
+" swap, backup, undo
+"----------------------------------------------------------------------
+set backup " tell vim to keep a backup file
+set backupdir=$HOME/.vim/backup " tell vim where to put its backup files
+set dir=$HOME/.vim/swap " tell vim where to put swap files
+
+set undofile
+set undodir=$HOME/.vim/undo
+
+"----------------------------------------------------------------------
 " colorschemes
 "----------------------------------------------------------------------
 colorscheme molokai
