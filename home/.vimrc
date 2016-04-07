@@ -9,8 +9,6 @@ call vundle#rc()
 """""""""""
 Plugin 'gmarik/vundle'
 
-" Bundle "elzr/vim-json"
-
 Plugin 'godlygeek/tabular'
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/syntastic'
@@ -18,14 +16,29 @@ Plugin 'scrooloose/syntastic'
 " Other plugins
 Plugin 'bling/vim-airline'
 Plugin 'chrisbra/SudoEdit.vim'
-Plugin 'ervandew/supertab'
+" Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-surround'
+
+Plugin 'ntpeters/vim-better-whitespace' " highlightning for whitespace
+
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'hashivim/vim-vagrant' " vagrant tab completion
+
+" Autocomplete and Snippets
+Plugin 'Shougo/neocomplete'
+
+Plugin 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet-snippets'
+Plugin 'honza/vim-snippets'
 
 " Install ctags
 Plugin 'majutsushi/tagbar'
 
 " Color schemes
-Plugin 'nanotech/jellybeans.vim'
+Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'nanotech/jellybeans.vim'
 Plugin 'tomasr/molokai'
 
 " Turn on filetype plugin and indent loading so that loading the
