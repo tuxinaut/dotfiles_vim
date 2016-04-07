@@ -41,14 +41,14 @@ Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'nanotech/jellybeans.vim'
 Plugin 'tomasr/molokai'
 
-" Turn on filetype plugin and indent loading so that loading the
-" vim-misc stuff below loads the proper files.
+" Automatically detect file types.
 filetype plugin indent on
-
 scriptencoding utf-8
 set encoding=utf-8
 
-" gvim
+"----------------------------------------------------------------------
+" Gvim
+"----------------------------------------------------------------------
 
 if has("gui_running")
   if has("gui_gtk2")
@@ -57,15 +57,13 @@ if has("gui_running")
 endif
 
 "----------------------------------------------------------------------
-"" Basic Options
+" Basic Options
 "----------------------------------------------------------------------
-
 set cursorline " Highlight the line the cursor is on
 set laststatus=2 " Always show the status bar
 set number
 set t_Co=256 " Use 256 colors
 set showmatch " Highlight matching braces
-
 
 syntax on " Enable filetype detection by syntax
 
@@ -74,6 +72,9 @@ set hlsearch " Highlight results
 set incsearch " Start showing results as you type
 set ignorecase " Case insensitiv search
 
+"----------------------------------------------------------------------
+" colorschemes
+"----------------------------------------------------------------------
 colorscheme molokai
 
 augroup vimrc
