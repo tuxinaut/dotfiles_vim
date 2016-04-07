@@ -76,6 +76,7 @@ if has("autocmd")
   autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType sh   setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType ino  setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType rst  setlocal ts=4 sts=4 sw=4 list
 endif
 
 "----------------------------------------------------------------------
