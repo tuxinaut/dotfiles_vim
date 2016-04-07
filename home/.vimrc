@@ -39,11 +39,6 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tomasr/molokai'
 
-" Automatically detect file types.
-filetype plugin indent on
-scriptencoding utf-8
-set encoding=utf-8
-
 "----------------------------------------------------------------------
 " Gvim
 "----------------------------------------------------------------------
@@ -57,6 +52,11 @@ endif
 "----------------------------------------------------------------------
 " Basic Options
 "----------------------------------------------------------------------
+" Automatically detect file types.
+filetype plugin indent on
+scriptencoding utf-8
+set encoding=utf-8
+
 set cursorline " Highlight the line the cursor is on
 set laststatus=2 " Always show the status bar
 set number
