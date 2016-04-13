@@ -57,6 +57,8 @@ filetype plugin indent on
 scriptencoding utf-8
 set encoding=utf-8
 
+set shell=/bin/bash\ -i
+
 set cursorline " Highlight the line the cursor is on
 set laststatus=2 " Always show the status bar
 set number
