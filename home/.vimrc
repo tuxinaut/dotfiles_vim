@@ -60,6 +60,9 @@ set encoding=utf-8
 
 set shell=/bin/bash\ -i
 
+" Reads the file again if a change outside vim happened
+set autoread
+
 set cursorline " Highlight the line the cursor is on
 set laststatus=2 " Always show the status bar
 set number
