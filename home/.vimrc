@@ -97,7 +97,13 @@ colorscheme molokai
 augroup vimrc
 augroup END
 
+"----------------------------------------------------------------------
+" Autocommands
+"----------------------------------------------------------------------
 if has("autocmd")
+  " Clear whitespace at the end of lines automatically
+  autocmd BufWritePre * :%s/\s\+$//e
+
   autocmd bufwritepost .vimrc source $MYVIMRC
 
   filetype on
@@ -191,9 +197,3 @@ let g:tagbar_show_linenumbers = 1
 
 " SudoEdit
 let g:sudo_no_gui=1
-
-"----------------------------------------------------------------------
-" Autocommands
-"----------------------------------------------------------------------
-" Clear whitespace at the end of lines automatically
-autocmd BufWritePre * :%s/\s\+$//e
