@@ -24,6 +24,7 @@ Plugin 'ntpeters/vim-better-whitespace' " highlightning for whitespace
 
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-vagrant' " vagrant tab completion
+Plugin 'hashivim/vim-packer' " packer tab completion
 
 " Autocomplete and Snippets
 Plugin 'Shougo/neocomplete'
