@@ -163,6 +163,11 @@ set spelllang=en_us
 " Plugin settings
 "----------------------------------------------------------------------
 
+" Indent Guides
+" https://github.com/nathanaelkane/vim-indent-guides
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+
 " Neocomplete
 " https://github.com/Shougo/neocomplete.vim
 let g:acp_enableAtStartup = 0
