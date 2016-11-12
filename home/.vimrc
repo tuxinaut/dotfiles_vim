@@ -65,7 +65,8 @@ filetype plugin indent on
 scriptencoding utf-8
 set encoding=utf-8
 
-set shell=/bin/bash\ -i
+" breaks vimgrep
+" set shell=/bin/bash\ -i
 
 " Reads the file again if a change outside vim happened
 set autoread
