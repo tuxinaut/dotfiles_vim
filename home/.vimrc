@@ -10,13 +10,20 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 Plugin 'godlygeek/tabular'
+
+" Indent Guides is a plugin for visually displaying indent levels in Vim.
+Plugin 'nathanaelkane/vim-indent-guides'
+
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/syntastic'
+
+" Navigation
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " Other plugins
 Plugin 'bling/vim-airline'
 Plugin 'chrisbra/SudoEdit.vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
 
