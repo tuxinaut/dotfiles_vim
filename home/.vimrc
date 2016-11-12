@@ -178,6 +178,12 @@ let g:neocomplete#enable_auto_delimiter = 1
 let g:neocomplete#max_list = 15
 let g:neocomplete#force_overwrite_completefunc = 1
 
+" always use completions from all buffers
+if !exists('g:neocomplete#same_filetypes')
+  let g:neocomplete#same_filetypes = {}
+endif
+let g:neocomplete#same_filetypes._ = '_'
+
 "let g:acp_enableAtStartup = 0
 "let g:neocomplete#enable_at_startup = 1
 "let g:neocomplete#enable_smart_case = 1
