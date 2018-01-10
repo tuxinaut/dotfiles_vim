@@ -22,6 +22,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 
 " Other plugins
+Plugin 'jamessan/vim-gnupg'
 Plugin 'bling/vim-airline'
 Plugin 'chrisbra/SudoEdit.vim'
 Plugin 'terryma/vim-multiple-cursors'
@@ -125,6 +126,9 @@ if has("autocmd")
   autocmd FileType sh   setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType ino  setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType rst  setlocal ts=4 sts=4 sw=4 list
+
+  " https://github.com/jamessan/vim-gnupg/issues/58
+  autocmd User GnuPG set t_Co=256
 endif
 
 "----------------------------------------------------------------------
@@ -163,6 +167,9 @@ set spelllang=en_us
 "----------------------------------------------------------------------
 " Plugin settings
 "----------------------------------------------------------------------
+
+" GPG
+let g:GPGExecutable = 'gpg2'
 
 " Indent Guides
 " https://github.com/nathanaelkane/vim-indent-guides
