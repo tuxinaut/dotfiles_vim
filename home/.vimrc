@@ -27,6 +27,7 @@ Plugin 'bling/vim-airline'
 Plugin 'chrisbra/SudoEdit.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
+Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'ntpeters/vim-better-whitespace' " highlightning for whitespace
 
