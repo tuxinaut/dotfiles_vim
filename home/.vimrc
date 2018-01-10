@@ -29,7 +29,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
 Plugin 'editorconfig/editorconfig-vim'
 
-Plugin 'ntpeters/vim-better-whitespace' " highlightning for whitespace
+Plugin 'ntpeters/vim-better-whitespace' " highlighting for whitespace
 
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-vagrant' " vagrant tab completion
