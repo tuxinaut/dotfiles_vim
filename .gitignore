@@ -12,3 +12,6 @@ Session.vim
 *~
 
 home/.vim/bundle/*
+home/.vim/backup/*
+home/.vim/swap/*
+home/.vim/undo/*
