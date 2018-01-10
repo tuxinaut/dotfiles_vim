@@ -34,6 +34,7 @@ Plugin 'ntpeters/vim-better-whitespace' " highlighting for whitespace
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-vagrant' " vagrant tab completion
 Plugin 'hashivim/vim-packer' " packer tab completion
+Plugin 'Glench/Vim-Jinja2-Syntax' " jinja2 syntax highlighting and indenting
 
 " Autocomplete and Snippets
 Plugin 'Shougo/neocomplete'
