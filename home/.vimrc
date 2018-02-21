@@ -17,6 +17,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/syntastic'
 
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
 " Navigation
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
