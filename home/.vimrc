@@ -47,6 +47,7 @@ Plugin 'Shougo/neosnippet-snippets'
 Plugin 'honza/vim-snippets'
 
 " Install ctags
+" package name exuberant-ctags
 Plugin 'majutsushi/tagbar'
 
 " Color schemes
