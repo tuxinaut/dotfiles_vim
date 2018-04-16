@@ -83,6 +83,7 @@ set laststatus=2 " Always show the status bar
 set number
 set t_Co=256 " Use 256 colors
 set showmatch " Highlight matching braces
+set conceallevel=0 " 0 = Text is shown normally
 
 syntax on " Enable filetype detection by syntax
 
