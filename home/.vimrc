@@ -85,7 +85,6 @@ set laststatus=2 " Always show the status bar
 set number
 set t_Co=256 " Use 256 colors
 set showmatch " Highlight matching braces
-set conceallevel=0 " 0 = Text is shown normally
 
 syntax on " Enable filetype detection by syntax
 
@@ -234,6 +233,8 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 " For conceal markers.
+" TODO
+" check why this is here!
 if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
