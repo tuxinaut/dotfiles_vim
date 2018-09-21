@@ -182,6 +182,10 @@ set spelllang=en_us
 "default,
 set nrformats-=octal
 
+" autocomplete menu behaves like zsh
+set wildmenu
+set wildmode=full
+
 "----------------------------------------------------------------------
 " Plugin settings
 "----------------------------------------------------------------------
