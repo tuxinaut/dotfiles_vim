@@ -172,6 +172,17 @@ nmap <silent> <leader>s :set spell!<CR>
 set spelllang=en_us
 
 "----------------------------------------------------------------------
+" Counting numbers
+"----------------------------------------------------------------------
+
+"This will cause Vim to treat numerals as decimal, regardless of whether they
+"are padded with zeros.
+"
+"As of version 8.0 of Vim, the ‘nrformats’ setting excludes the octal option by
+"default,
+set nrformats-=octal
+
+"----------------------------------------------------------------------
 " Plugin settings
 "----------------------------------------------------------------------
 
