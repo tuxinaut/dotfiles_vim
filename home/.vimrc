@@ -60,7 +60,7 @@ Plugin 'tomasr/molokai'
 
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+    set guifont=DejaVu\ Sans\ Mono\ 10
   endif
 endif
 
