@@ -33,6 +33,7 @@ Plugin 'chrisbra/SudoEdit.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'unblevable/quick-scope'
 
 Plugin 'ntpeters/vim-better-whitespace' " highlighting for whitespace
 
@@ -106,6 +107,17 @@ set dir=$HOME/.vim/swap " tell vim where to put swap files
 
 set undofile
 set undodir=$HOME/.vim/undo
+
+"----------------------------------------------------------------------
+" customize colors for quick-scope
+"----------------------------------------------------------------------
+if has("autocmd")
+  augroup qs_colors
+    autocmd!
+    autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+    autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+  augroup END
+endif
 
 "----------------------------------------------------------------------
 " colorschemes
