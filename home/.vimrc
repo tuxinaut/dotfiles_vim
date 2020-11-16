@@ -14,6 +14,9 @@ Plugin 'godlygeek/tabular'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Vimjas/vim-python-pep8-indent'
 
+" Languages
+Plugin 'fatih/vim-go'
+
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/syntastic'
 
