@@ -106,6 +106,11 @@ set ignorecase " Case insensitiv search
 " history
 set history=1000
 
+" https://unix.stackexchange.com/questions/196098/copy-paste-in-xfce4-terminal-adds-0-and-1
+" enable bracketed paste mode
+" https://vimhelp.org/term.txt.html#xterm-bracketed-paste
+set t_BE=
+
 "----------------------------------------------------------------------
 " swap, backup, undo
 "----------------------------------------------------------------------
