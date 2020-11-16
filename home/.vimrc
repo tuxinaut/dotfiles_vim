@@ -12,6 +12,7 @@ Plugin 'godlygeek/tabular'
 
 " Indent Guides is a plugin for visually displaying indent levels in Vim.
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Vimjas/vim-python-pep8-indent'
 
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/syntastic'
