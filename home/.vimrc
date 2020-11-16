@@ -136,6 +136,7 @@ endif
 " colorschemes
 "----------------------------------------------------------------------
 colorscheme iceberg
+set background=dark
 
 augroup vimrc
 augroup END
