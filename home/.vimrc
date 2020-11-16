@@ -22,6 +22,7 @@ Plugin 'scrooloose/syntastic'
 
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " Navigation
 Plugin 'scrooloose/nerdtree'
