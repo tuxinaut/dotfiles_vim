@@ -76,6 +76,12 @@ filetype plugin indent on
 scriptencoding utf-8
 set encoding=utf-8
 
+" Fixes
+" Weird characters in conjunction with vim and vim git [>4;2m
+" https://vi.stackexchange.com/questions/27399/whats-t-te-and-t-ti-added-by-vim-8
+let &t_TI = ""
+let &t_TE = ""
+
 " breaks vimgrep
 " set shell=/bin/bash\ -i
 
